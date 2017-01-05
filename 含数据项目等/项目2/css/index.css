@@ -1,0 +1,138 @@
+			#page1 {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				background: url(img/bg.jpeg) no-repeat;
+				background-size: 100% 100%;
+				/*display: none;*/
+			}
+			.tiaozhan {
+				position: absolute;
+				left: 16%;
+				top: 8%;
+				width: 80%;
+				animation-delay: 0.5s;
+			}
+			
+			.yinqu {
+				position: absolute;
+				left: 2%;
+				top: 24%;
+				width: 95%;
+			}
+			
+			.start_btn {
+				position: absolute;
+				left: 30%;
+				bottom: 20%;
+				width: 38%;
+				animation-delay: 1s;
+				animation-iteration-count: infinite;
+			}
+			
+			.shou {
+				position: absolute;
+				left: 58%;
+				bottom: 22%;
+				width: 15%;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+			}
+			
+			.p1_btns_wrap {
+				position: absolute;
+				left: 3%;
+				bottom: 2%;
+				width: 95%;
+			}
+			
+			.ranking {
+				position: absolute;
+				left: 4%;
+				bottom: 4%;
+				width: 22%;
+			}
+			
+			.activity_rule {
+				position: absolute;
+				left: 27%;
+				bottom: 4%;
+				width: 22%;
+			}
+			
+			.prize {
+				position: absolute;
+				left: 50%;
+				bottom: 3.8%;
+				width: 22.7%;
+			}
+			
+			.shiyong {
+				position: absolute;
+				left: 74%;
+				bottom: 4%;
+				width: 22%;
+			}
+			
+			.p1_mask {
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.7);
+				z-index: 2;
+			}
+			
+			.close {
+				position: absolute;
+				right: 13%;
+				top: 15%;
+				width: 7%;
+			}
+			
+			.userData_wrap {
+				position: absolute;
+				top: 20%;
+				left: 12%;
+				width: 77%;
+				height: 43%;
+				background: url(../img/p1_from.png) no-repeat;
+				background-size: 100% 100%;
+			}
+			
+			.userData_name {
+				position: absolute;
+			    left: 13%;
+			    top: 32%;
+			    width: 72%;
+			    height: 14%;
+			    border: 5px solid #e33145;
+			    font-size: 50px;
+			    color: black;
+			    background: #F2BB00;
+			    border-radius: 25px;
+			    padding-left: 2%;
+			}
+			.tel {
+				position: absolute;
+			    left: 13%;
+			    top: 50%;
+			    width: 72%;
+			    height: 14%;
+			    border: 5px solid #e33145;
+			    font-size: 50px;
+			    color: black;
+			    background: #F2BB00;
+			    border-radius: 25px;
+			    padding-left: 2%;
+			}
+			.sub {
+				position: absolute;
+			    left: 24%;
+			    top: 70%;
+			    width: 54%;
+			    height: 19%;
+			    background: url(img/p1_sub.png) no-repeat;
+			    background-size: 100% 100%;
+			    outline: none;
+			}
